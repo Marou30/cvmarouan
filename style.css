@@ -175,5 +175,10 @@ footer img
 .premiere {width: 100%; text-align: center; margin-right: 0px; margin-bottom: 2%; font-size: 16px;}
 .deuxieme{ width: 100%; text-align: center;  }
 .infos{ font-size: 16px; }
+  #formation{}
+#experiences{align-items: flex-start; }
+#competences{align-items: flex-start;}
+#voyages{margin-bottom: 1%;}
+
 }
 
