@@ -1,0 +1,96 @@
+@font-face{
+	font-family: 'whiteonblack';
+	src: url('whiteonblack.ttf');
+}
+
+
+body
+{
+	background-image: url(fond.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'whiteonblack', Arial, setif;
+	
+   
+}
+
+.corps
+{
+	margin-top: 8%;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+
+}
+
+h1
+{font-size: 600%;}
+
+h2
+{
+	font-size: 150%;
+}
+
+.nom
+{
+	
+	color: white;
+
+	
+}
+
+img
+{
+	width: 250px;
+	height: 250px;
+	box-shadow: 6px 6px 0px black;
+	border-radius: 50px;
+	}
+
+
+
+.entree
+{
+  display: inline-block;
+  background-color: none;
+  border-radius: 10px;
+  border: 5px whitesmoke;
+  border-style: ridge;
+  box-shadow: 6px 6px 3px black;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 3%;
+  text-decoration: none;
+  margin-left: 45%;
+ 
+
+}
+
+
+a:hover
+{
+	color: whitesmoke;
+}
+
+a:visited
+
+{
+	color: white;
+}
+
+@media screen and (max-width: 1280px)
+{
+ 
+.corps{ flex-direction: column-reverse ;justify-content: center; }
+.photo, .nom{text-align: center;}
+
+}

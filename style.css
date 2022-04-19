@@ -1,0 +1,180 @@
+@font-face{
+  font-family: 'urbanjungle';
+  src: url('urbanjungle.otf');
+}
+
+
+
+body
+{
+  background: url('fond-2.jpg') no-repeat;
+  background-size: cover;
+  color: black;
+  height: 100%;
+
+}
+
+/* HEADER */
+
+header
+{
+    text-align: center;
+  border-radius: 10px;
+  margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-style: groove;
+    box-shadow: 0px 0px 9px black;
+    border-color: cadetblue;
+    height: 100%;
+
+}
+
+#photo img
+{
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  border-radius: 60%;
+  margin-left: 2%;
+  box-shadow: 0px 0px 8px black;
+  border-style: groove;
+
+}
+
+#titre
+{
+  
+    font-family: 'urbanjungle', Arial, setif;
+  font-size: 1.3em;
+  text-align: center;
+  flex-grow: 3;
+
+}
+
+#infos
+{
+  flex-wrap: wrap;
+  text-align: justify;
+  margin-right: 1%;
+}
+
+/* CORPS */
+
+h2
+{
+  text-align: center;
+  text-decoration: underline;
+}
+
+a
+{
+  color:#2b73b3 ;
+}
+
+a:hover
+{
+  color:red
+}
+
+section
+{
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+    justify-content: space-between;
+}
+
+.premiere
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: groove;
+    box-shadow: 0px 0px 9px black;
+    border-color: cadetblue;
+    border-radius: 10px;
+  margin-right: 2%;
+  flex-grow: 2;
+  
+
+}
+
+.deuxieme
+{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border-style: groove;
+    box-shadow: 0px 0px 9px black;
+    border-color: cadetblue;
+    border-radius: 10px;
+
+  
+}
+
+/* FOOTER */
+
+footer
+{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  border-style: groove;
+  border-radius: 10px;
+  border-color: cadetblue;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+}
+
+footer img
+{
+  
+  width: 50px;
+  height: 50px;
+
+}
+
+
+#facebook
+{
+  
+  border-radius: 15px;
+  flex:  1;
+  text-align: center;
+}
+
+#linkedin
+  
+{
+  border-radius: 15px;
+  flex:  1;
+}
+
+#snapchat
+{
+  
+  border-radius: 15px;
+  flex:  1;
+}
+
+@media screen and (max-width: 1280px)
+{
+  header { flex-direction: column; justify-content: center;}
+
+  #infos{ text-align: center; }
+
+.premiere {width: 100%; text-align: center; }
+  .deuxieme{ width: 100%; text-align: center;  }
+}
+}
+}
+
