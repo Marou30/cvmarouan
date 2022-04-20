@@ -53,6 +53,8 @@ img
 	height: 250px;
 	box-shadow: 6px 6px 0px black;
 	border-radius: 50px;
+	border-color: none;
+	
 	}
 
 
@@ -102,7 +104,7 @@ a:visited
  body{align-items: stretch;}
 .corps{ flex-direction: column ;justify-content: center; margin-top: 50vh;
     transform: translateY(-50%);}
-.photo {text-align: center; order: 1;}
+.photo {text-align: center; order: 1; border-color: none;}
 .nom {text-align: center; order: 2;}
 .bouton {text-align: center; order: 3; } 
 
