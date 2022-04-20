@@ -104,7 +104,7 @@ a:visited
  body{align-items: center;}
 .corps{ flex-direction: column ;justify-content: center; margin-top: 50vh;
     transform: translateY(-50%);}
-.photo {text-align: center; order: 1; border-color: none;}
+img {text-align: center; order: 1; border-color: none;}
 .nom {text-align: center; order: 2;}
 .bouton {text-align: center; order: 3; } 
 
