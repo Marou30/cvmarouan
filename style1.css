@@ -3,6 +3,7 @@
 	src: url('whiteonblack.ttf');
 }
 
+/* BODY */
 
 body
 {
@@ -11,17 +12,9 @@ body
 	background-repeat: no-repeat;
 	font-family: 'whiteonblack', Arial, setif;
 	
+
+
    
-}
-
-.corps
-{
-	margin-top: 8%;
-	display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
-
 }
 
 h1
@@ -36,9 +29,23 @@ h2
 {
 	
 	color: white;
-
 	
 }
+
+.corps
+{
+		display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: none;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+
+}
+
+/* CONTENU */
 
 img
 {
@@ -49,8 +56,15 @@ img
 	}
 
 
+.bouton
+{
+	flex: 3 100%;
+	text-align: center;
 
-.entree
+
+}
+
+a
 {
   display: inline-block;
   background-color: none;
@@ -63,34 +77,34 @@ img
   font-size: 28px;
   padding: 20px;
   width: 200px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
   cursor: pointer;
   margin-top: 3%;
   text-decoration: none;
-  margin-left: 45%;
- 
-
+   
 }
 
 
 a:hover
 {
-	color: whitesmoke;
+	color: red;
 }
 
 a:visited
 
 {
-	color: white;
+	color: snow;
 }
+
+/*RESPONSIVE DESIGN*/
 
 @media screen and (max-width: 1280px)
 {
- 
-.corps{ flex-direction: column-reverse ;justify-content: center; }
-.photo, .nom{text-align: center;}
+ body{align-items: stretch;}
+.corps{ flex-direction: column ;justify-content: center; margin-top: 50vh;
+    transform: translateY(-50%);}
+.photo {text-align: center; order: 1;}
+img{ width: 50%; height: 50%; }
+.nom {text-align: center; order: 2;}
+.bouton {text-align: center; order: 3; margin-top: 2%;} 
 
 }
