@@ -103,8 +103,7 @@ a:visited
 .corps{ flex-direction: column ;justify-content: center; margin-top: 50vh;
     transform: translateY(-50%);}
 .photo {text-align: center; order: 1;}
-img{ width: 50%; height: 50%; }
 .nom {text-align: center; order: 2;}
-.bouton {text-align: center; order: 3; margin-top: 2%;} 
+.bouton {text-align: center; order: 3; } 
 
 }
